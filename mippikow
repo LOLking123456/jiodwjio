@@ -351,7 +351,7 @@ function Library:CreateWindow(title, color)
             
             background.Name = "background"
             background.Parent = groupboxinline
-            background.BackgroundColor3 = Color3.fromRGB(156, 163, 168)
+            background.BackgroundColor3 = Color3.fromRGB(32, 58, 86)
             background.BorderSizePixel = 0
             background.Position = UDim2.new(0, 1, 0, 1)
             background.Size = UDim2.new(0, 250, 0, 36)
@@ -623,7 +623,7 @@ function Library:CreateWindow(title, color)
 
                 slider.Name = "slider"
                 slider.Parent = title_15
-                slider.BackgroundColor3 = Color3.fromRGB(245, 205, 48)
+                slider.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
                 slider.BorderColor3 = Color3.fromRGB(8, 8, 8)
                 slider.Position = UDim2.new(0, 0, 0, 22)
                 slider.Size = UDim2.new(0, 234, 0, 15)
@@ -1235,7 +1235,7 @@ function Library:CreateWindow(title, color)
             
             background.Name = "background"
             background.Parent = groupboxinline
-            background.BackgroundColor3 = Color3.fromRGB(156, 163, 168)
+            background.BackgroundColor3 = Color3.fromRGB(32, 58, 86)
             background.BorderSizePixel = 0
             background.Position = UDim2.new(0, 1, 0, 1)
             background.Size = UDim2.new(0, 509, 0, 456)
