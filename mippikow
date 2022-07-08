@@ -351,7 +351,7 @@ function Library:CreateWindow(title, color)
             
             background.Name = "background"
             background.Parent = groupboxinline
-            background.BackgroundColor3 = Color3.fromRGB(109, 110, 108)
+            background.BackgroundColor3 = Color3.fromRGB(87, 88, 87)
             background.BorderSizePixel = 0
             background.Position = UDim2.new(0, 1, 0, 1)
             background.Size = UDim2.new(0, 250, 0, 36)
@@ -1235,7 +1235,7 @@ function Library:CreateWindow(title, color)
             
             background.Name = "background"
             background.Parent = groupboxinline
-            background.BackgroundColor3 = Color3.fromRGB(109, 110, 108)
+            background.BackgroundColor3 = Color3.fromRGB(87, 88, 87)
             background.BorderSizePixel = 0
             background.Position = UDim2.new(0, 1, 0, 1)
             background.Size = UDim2.new(0, 509, 0, 456)
