@@ -351,7 +351,7 @@ function Library:CreateWindow(title, color)
             
             background.Name = "background"
             background.Parent = groupboxinline
-            background.BackgroundColor3 = Color3.fromRGB(32, 58, 86)
+            background.BackgroundColor3 = Color3.fromRGB(109, 110, 108)
             background.BorderSizePixel = 0
             background.Position = UDim2.new(0, 1, 0, 1)
             background.Size = UDim2.new(0, 250, 0, 36)
@@ -585,7 +585,7 @@ function Library:CreateWindow(title, color)
                 return ToggleTypes
             end
 
-            function GroupTypes:Create(name, min, max, def, callback)
+            function GroupTypes:CreateSlider(name, min, max, def, callback)
                 name = name or "New Slider"
                 min = min or 0
                 max = max or 100
@@ -1235,7 +1235,7 @@ function Library:CreateWindow(title, color)
             
             background.Name = "background"
             background.Parent = groupboxinline
-            background.BackgroundColor3 = Color3.fromRGB(32, 58, 86)
+            background.BackgroundColor3 = Color3.fromRGB(109, 110, 108)
             background.BorderSizePixel = 0
             background.Position = UDim2.new(0, 1, 0, 1)
             background.Size = UDim2.new(0, 509, 0, 456)
